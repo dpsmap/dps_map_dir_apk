@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dps-dir",
+    "name": "DPS dir",
     "slug": "dps-dir",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dpsmap.dpsdir"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3e6df084-e7cf-4c69-afb6-281c6ddc54ce"
+      }
+    },
+    "owner": "dpsmap"
   }
 }
